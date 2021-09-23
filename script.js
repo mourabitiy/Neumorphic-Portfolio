@@ -15,3 +15,7 @@ themeToggler.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+$(window).on('load',function(){
+      $(".loader").fadeOut(3000);
+      $(".content").fadeIn(3000);
+});
